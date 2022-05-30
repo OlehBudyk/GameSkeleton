@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameSkeleton", "GameSkeleton\GameSkeleton.vcxproj", "{70436358-69DC-497E-86D8-E155054DE5AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestingApp", "TestingApp\TestingApp.vcxproj", "{F12D25A8-0DFD-42E0-9598-423E114599FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70436358-69DC-497E-86D8-E155054DE5AC} = {70436358-69DC-497E-86D8-E155054DE5AC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70436358-69DC-497E-86D8-E155054DE5AC}.Debug|x64.ActiveCfg = Debug|x64
+		{70436358-69DC-497E-86D8-E155054DE5AC}.Debug|x64.Build.0 = Debug|x64
+		{70436358-69DC-497E-86D8-E155054DE5AC}.Release|x64.ActiveCfg = Release|x64
+		{70436358-69DC-497E-86D8-E155054DE5AC}.Release|x64.Build.0 = Release|x64
+		{F12D25A8-0DFD-42E0-9598-423E114599FC}.Debug|x64.ActiveCfg = Debug|x64
+		{F12D25A8-0DFD-42E0-9598-423E114599FC}.Debug|x64.Build.0 = Debug|x64
+		{F12D25A8-0DFD-42E0-9598-423E114599FC}.Release|x64.ActiveCfg = Release|x64
+		{F12D25A8-0DFD-42E0-9598-423E114599FC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76210189-D7C6-46B2-BAD1-DE956B10270C}
+	EndGlobalSection
+EndGlobal
