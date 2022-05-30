@@ -1,9 +1,9 @@
 #pragma once
 
-#ifdef GAMESKELETON_EXPORTS
-#define GAMESKELETON_API __declspec(dllexport)
+#ifdef GAMECORE_EXPORTS
+#define GAMECORE_API __declspec(dllexport)
 #else
-#define GAMESKELETON_API __declspec(dllimport)
+#define GAMECORE_API __declspec(dllimport)
 #endif
 
 #include <vector>
@@ -13,7 +13,7 @@
 #include "Player.h"
 #include "Map.h"
 
-class GAMESKELETON_API Game
+class GAMECORE_API Game
 {
 private:
 	Map* m_map;

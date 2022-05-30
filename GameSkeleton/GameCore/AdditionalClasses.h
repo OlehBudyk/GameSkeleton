@@ -1,12 +1,12 @@
 #pragma once
 
-#ifdef GAMESKELETON_EXPORTS
-#define GAMESKELETON_API __declspec(dllexport)
+#ifdef GAMECORE_EXPORTS
+#define GAMECORE_API __declspec(dllexport)
 #else
-#define GAMESKELETON_API __declspec(dllimport)
+#define GAMECORE_API __declspec(dllimport)
 #endif
 
-class GAMESKELETON_API Coords
+class GAMECORE_API Coords
 {
 public:
 	Coords(int x = 1, int y = 1) :x{ x }, y{ y } {}

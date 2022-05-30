@@ -1,15 +1,15 @@
 #pragma once
 
-#ifdef GAMESKELETON_EXPORTS
-#define GAMESKELETON_API __declspec(dllexport)
+#ifdef GAMECORE_EXPORTS
+#define GAMECORE_API __declspec(dllexport)
 #else
-#define GAMESKELETON_API __declspec(dllimport)
+#define GAMECORE_API __declspec(dllimport)
 #endif
 
 #include "MapProps.h"
 #include "Player.h"
 
-class GAMESKELETON_API Map
+class GAMECORE_API Map
 {
 private:
 
