@@ -12,9 +12,6 @@ public:
 	int m_rows;
 	int m_columns;
 
-	int m_vertical_space_count;
-	int m_horizontal_space_count;
-
 	const static char SPACE_SYMBOL = ' ';
 	const static char WALL_SYMBOL = '#';
 
@@ -24,7 +21,5 @@ public:
 	MapProps(int rows, int columns, int verticalSpace, int horizontalSpace)
 		: m_rows{ rows }
 		, m_columns{ columns }
-		, m_vertical_space_count{ verticalSpace }
-		, m_horizontal_space_count{ horizontalSpace }
 	{}
 };
